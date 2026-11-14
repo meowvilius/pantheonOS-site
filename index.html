@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>pantheonOS — The Pantheon desktop, rebuilt on Fedora</title>
+  <meta name="description" content="pantheonOS pairs elementary’s Pantheon Wayland desktop with the Fedora 45 base, preinstalled Wine, and a built-in recovery session. First public release coming soon.">
+  <meta name="theme-color" content="#fafaf7">
+  <meta name="color-scheme" content="light">
+  <meta property="og:title" content="pantheonOS — The Pantheon desktop, rebuilt on Fedora">
+  <meta property="og:description" content="An independent Fedora remix with elementary’s Pantheon desktop, preinstalled Wine, and a built-in recovery session. Coming soon.">
+  <link rel="icon" href="assets/pantheonos.svg" type="image/svg+xml">
+  <link rel="license" href="LICENSE">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="pantheonOS home">
+        <svg class="brand-mark" viewBox="0 0 128 128" aria-hidden="true">
+          <circle cx="64" cy="64" r="53" fill="none" stroke="currentColor" stroke-width="5.5"/>
+          <path fill="currentColor" fill-rule="evenodd" transform="translate(1 -4.5)"
+                d="M34 64c11-2 20-11 28-25 2-4 7-2 6 2l-6 19
+                   c8-9 20-13 27-6 10 10-1 25-13 28-8 2-15 0-21-5l-7 22
+                   c-1 4-7 3-6-1l15-46c-7 9-14 15-22 17-4 1-5-4-1-5z
+                   m24 7c5 6 12 7 18 4 7-3 12-10 8-15-5-6-18 2-26 11z"/>
+        </svg>
+        <span>pantheonOS</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Sections">
+        <a href="#overview" data-nav>Overview</a>
+        <a href="#inside" data-nav>Inside</a>
+        <a href="#release" data-nav>Release</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="shell hero-inner">
+        <h1 class="hero-title rise">
+          <span>The Pantheon desktop,</span>
+          <span>rebuilt on <em>Fedora.</em></span>
+        </h1>
+
+        <p class="hero-lede rise">elementary’s Wayland desktop on Fedora’s kernel and installer, with Windows apps handled by preinstalled Wine — and a recovery session ready when things go wrong.</p>
+
+        <div class="hero-actions rise">
+          <a class="btn btn-solid" href="#inside">See what’s inside</a>
+          <a class="btn btn-ghost" href="#release">Coming soon</a>
+        </div>
+
+        <p class="hero-meta rise">Version 1 “Janus”&ensp;·&ensp;Fedora 45&ensp;·&ensp;x86_64</p>
+      </div>
+
+      <figure class="shell showcase rise">
+        <img
+          src="assets/desktop-session.jpg"
+          width="1280" height="800"
+          alt="The pantheonOS desktop: Wingpanel at the top with Applications, the date and time, and system indicators, a mountain lake wallpaper, and the Pantheon dock along the bottom."
+          fetchpriority="high"
+          decoding="async">
+      </figure>
+    </section>
+
+    <section class="section" id="overview" aria-labelledby="overview-title">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="label">Overview</p>
+          <h2 id="overview-title">The whole desktop, <em>as shipped.</em></h2>
+        </header>
+        <p class="section-copy reveal">One live session, exactly what an installed system runs — Wingpanel, the dock, and the apps behind them, on Wayland. Nothing staged for the website.</p>
+      </div>
+    </section>
+
+    <section class="section" id="inside" aria-labelledby="inside-title">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="label">Inside</p>
+          <h2 id="inside-title">What’s <em>inside.</em></h2>
+        </header>
+
+        <div class="track">
+          <article class="row reveal">
+            <span class="row-num">01</span>
+            <span class="row-body">
+              <span class="row-title">Fedora 45 base</span>
+              <span class="row-desc">Signed kernel, firmware, and the Anaconda installer — straight from upstream, so updates and Secure Boot just work.</span>
+            </span>
+            <span class="row-arrow" aria-hidden="true">→</span>
+          </article>
+
+          <article class="row reveal">
+            <span class="row-num">02</span>
+            <span class="row-body">
+              <span class="row-title">Pantheon desktop</span>
+              <span class="row-desc">Gala, Wingpanel, Dock, AppCenter, and Calendar — elementary’s desktop on Wayland, tuned for Fedora.</span>
+            </span>
+            <span class="row-arrow" aria-hidden="true">→</span>
+          </article>
+
+          <article class="row reveal">
+            <span class="row-num">03</span>
+            <span class="row-body">
+              <span class="row-title">Wine, ready to go</span>
+              <span class="row-desc"><code>.exe</code> and <code>.msi</code> files open straight from the desktop, backed by a shared per-user prefix.</span>
+            </span>
+            <span class="row-arrow" aria-hidden="true">→</span>
+          </article>
+
+          <article class="row reveal">
+            <span class="row-num">04</span>
+            <span class="row-body">
+              <span class="row-title">Recovery, built in</span>
+              <span class="row-desc">An Openbox session on standby, plus plain text consoles — a way back in when the desktop won’t start.</span>
+            </span>
+            <span class="row-arrow" aria-hidden="true">→</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="release" id="release" aria-labelledby="release-title">
+      <div class="shell">
+        <h2 class="release-title reveal" id="release-title">Coming <em>soon.</em></h2>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-mark" aria-hidden="true">pantheonOS</div>
+
+    <div class="shell">
+      <div class="footer-bottom">
+        <details class="credits" id="legal">
+          <summary>Legal &amp; credits</summary>
+          <div class="credits-body">
+            <p><strong>Trademarks.</strong> Fedora and the Infinity logo are trademarks of Red Hat, Inc. elementary, elementary OS, and Pantheon are trademarks of elementary, Inc.; Wine is a trademark of its respective owners. All included components remain under their own upstream licenses, and these names are used only to describe what pantheonOS is built from.</p>
+            <p><strong>Wallpaper.</strong> “A Large Body of Water Surrounded By Mountains” by <a href="https://unsplash.com/photos/Dxod5pdRtsk">Peter Thomas</a>, distributed with <a href="https://github.com/elementary/wallpapers">elementary wallpapers</a>, used under the <a href="https://unsplash.com/license">Unsplash License</a>. The desktop screenshot shows the elementary shell and app icons for identification only.</p>
+          </div>
+        </details>
+        <a class="back-top" href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="pantheonOS">
+  <circle cx="64" cy="64" r="53" fill="none" stroke="#253459" stroke-width="5.5"/>
+  <path fill="#253459" fill-rule="evenodd" transform="translate(1 -4.5)"
+        d="M34 64c11-2 20-11 28-25 2-4 7-2 6 2l-6 19
+           c8-9 20-13 27-6 10 10-1 25-13 28-8 2-15 0-21-5l-7 22
+           c-1 4-7 3-6-1l15-46c-7 9-14 15-22 17-4 1-5-4-1-5z
+           m24 7c5 6 12 7 18 4 7-3 12-10 8-15-5-6-18 2-26 11z"/>
+</svg>
