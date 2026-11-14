@@ -2,14 +2,19 @@
 
 pantheonOS 1 Janus is an independent Fedora remix. It is not affiliated with,
 sponsored by, or endorsed by Red Hat, Inc., the Fedora Project, elementary,
-Inc., or the Wine project.
+Inc., the Wine project, Ultramarine Linux, or Microsoft Corporation.
 
 ## Site
 
 The HTML, CSS, and JavaScript in this directory are original work, released
 under the MIT License. See [LICENSE](LICENSE).
 
-Copyright © 2026 pantheonOS contributors.
+Copyright © 2026 meowvilius.
+
+The MIT License does **not** cover the items listed under
+[Fonts](#fonts), [Screenshot](#screenshot), [Wallpaper](#wallpaper), and
+[Trademarks](#trademarks) below, including the pantheonOS name and the mark in
+`assets/pantheonos.svg`.
 
 ## Design
 
@@ -17,6 +22,8 @@ The site uses an original static layout written in plain HTML, CSS, and
 JavaScript with no external assets or build step. Its structure follows common
 conventions of Linux distribution homepages, while using no code or assets
 from those websites.
+
+## Fonts
 
 The display face is **Instrument Serif** (`assets/fonts/InstrumentSerif-latin.woff2`,
 `assets/fonts/InstrumentSerifItalic-latin.woff2`), body text is **Inter**
@@ -50,23 +57,33 @@ photographer.
 
 ## Trademarks
 
-- **Fedora** and the **Infinity logo** are trademarks of Red Hat, Inc.
+- **Linux®** is the registered trademark of Linus Torvalds in the U.S. and
+  other countries.
+- **Fedora®**, the Fedora word design, and the **Infinity design logo** are
+  trademarks of Red Hat, Inc. in the U.S. and elsewhere.
 - **elementary** and **elementary OS** are trademarks of elementary, Inc.
   **Pantheon** is the name of elementary's desktop environment.
 - **Wine** is a trademark of its respective owners.
+- **Microsoft** and **Windows** are trademarks of Microsoft Corporation.
 
 These names are used descriptively, to identify the software pantheonOS is
-built from and to credit the projects. Their use does not imply affiliation or
-endorsement.
+built from or compatible with and to credit the projects. Their use does not
+imply affiliation or endorsement.
 
 The **pantheonOS** name and the mark in `assets/pantheonos.svg` belong to the
-pantheonOS project. They are not covered by the MIT license above.
+pantheonOS project. They are not covered by the MIT License above.
 
 ## Software licenses
 
 pantheonOS is built on Fedora 45. Fedora, the Linux kernel, the elementary
 desktop and applications, Wine, and all other included components remain under
 their own upstream licenses. This site does not redistribute those components.
+
+Some system tuning settings in the operating system image are adapted from
+[Ultramarine Linux](https://github.com/Ultramarine-Linux/packages).
+
+Source code, license texts, and notices for the operating system image will be
+published with the release.
 
 Useful references:
 
